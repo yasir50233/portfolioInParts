@@ -1,0 +1,18 @@
+.img-box {
+        /* border: 2px solid black; */
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: url(/src/assets/img.png);
+    background-size: cover;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+    margin-left: 60%;
+    margin-top: -231px;
+}
+.img-box:hover {
+  transform: scale(1.05);
+  animation: bounce 0.6s;
+
+}

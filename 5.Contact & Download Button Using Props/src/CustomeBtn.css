@@ -1,0 +1,104 @@
+.btn-box{
+    margin-left: 116px;
+    position: absolute;
+    bottom: 16%;
+    display: flex;
+    flex-direction: column;
+    height: 192px;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-start;
+}
+.innerbtnbox{
+  border: 2px solid black;
+  height: auto;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+   transition: all .3s;
+   font-weight: 100;
+}
+i:hover {
+  color: #06f;
+}
+.button-59,.button-58 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #4169e1;
+  box-sizing: border-box;
+  color: #4169e1;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #4169e1;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 6px;
+}
+
+.button-59:focus {
+  color: #06f;
+}
+
+.button-59:hover {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  fill: rgb(0, 0, 0);
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+.button-59 {
+     opacity: 0;
+     transform: translateX(-100%);
+     animation: slideInLeft 1s ease-out 0.5s forwards;
+}
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.button-58.button-59:active {
+  color: #06f;
+}
+
+.button-58:hover {
+  border-color: #06f;
+  color:#06f;
+  fill: #06f;
+}
+
+.button-58:active {
+  border-color: #000;
+  color: #000;
+  fill: #000;
+}
